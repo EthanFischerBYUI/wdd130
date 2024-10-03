@@ -1,32 +1,25 @@
-main {
-    max-width: 800px; /* Limit the width of the main content */
+/* Nav Rule */
+nav {
+    background-color: #333;
+    padding: 10px;
 }
 
-aside {
-    width: 300px; /* Width of the aside element */
-    margin: 20px; /* Margin around the aside */
-    border: 2px solid #000; /* Border around the aside */
-    padding: 10px; /* Padding inside the aside */
-    background-color: #f0f0f0; /* Light gray background color */
-    color: #333; /* Darker text color for contrast */
+/* Nav Anchor Rule */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
 }
 
-aside img {
-    width: 200px; /* Set aside image width */
-    height: auto; /* Maintain aspect ratio */
+/* Heading 1 Rule */
+h1 {
+    font-size: 2em;
+    color: #444;
+    text-align: center;
 }
 
-main img {
-    width: 150px; /* Set main profile image width */
-    height: auto; /* Maintain aspect ratio */
-}
-
-p {
-    padding: 0; /* Remove padding from paragraphs */
-}
-
-footer {
-    margin-top: 20px; /* Add top margin to the footer */
-    border-top: 1px solid #000; /* Top border for distinction */
-    text-align: center; /* Center align footer text */
+/* Image Rule */
+img {
+    max-width: 100%;
+    height: auto;
 }
