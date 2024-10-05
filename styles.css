@@ -6,7 +6,7 @@ nav {
 
 /* Nav Anchor Rule */
 nav a {
-    color: white;
+    color: rgba(227, 118, 227, 0.736);
     text-decoration: none;
     margin-right: 20px;
 }
