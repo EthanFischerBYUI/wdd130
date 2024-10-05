@@ -6,11 +6,13 @@ nav {
 
 /* Nav Anchor Rule */
 nav a {
-    color: rgba(227, 118, 227, 0.736);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     margin-right: 20px;
 }
-
+body {
+    background-color: aqua;
+}
 /* Heading 1 Rule */
 h1 {
     font-size: 2em;
