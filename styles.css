@@ -24,8 +24,8 @@ body {
 /* Heading 1 Rule */
 h1 {
     font-size: 2em;
-    background-color: #333;
-    color: rgba(169, 169, 169, 0.067);
+    background-color: #333; width: fit-content;
+    color:white;
     text-align: center;
 }
 
