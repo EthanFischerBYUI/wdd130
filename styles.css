@@ -25,7 +25,7 @@ body {
 h1 {
     font-size: 2em;
     background-color: #333;
-    color: darkgray;
+    color: rgba(169, 169, 169, 0.067);
     text-align: center;
 }
 
