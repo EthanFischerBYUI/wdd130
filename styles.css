@@ -24,12 +24,24 @@ body {
 /* Heading 1 Rule */
 h1 {
     font-size: 2em;
-    background-color: #333;
     color:white;
+    text-align: center;
+    background-color: #333;
+
+}
+h2 {
+    color: white;
+    text-align: center;
+    background-color: #333;
 }
 
 /* Image Rule */
 img {
     max-width: 100%;
     height: auto;
+}
+p {
+    color: white;
+    text-align: center;
+    background-color: #333;
 }
