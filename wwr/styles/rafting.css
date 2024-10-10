@@ -43,7 +43,11 @@ nav ul li a {
 nav ul li a:hover {
     color: #F5853F; /* Orange */
 }
-
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
 /* Main Content */
 main {
     
