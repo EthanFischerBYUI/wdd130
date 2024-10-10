@@ -83,7 +83,7 @@ div img {
 }
 
 section img {
-    width: 18%;
+    width: fit-content;
     margin: 10px 1%;
     height: auto;
     border-radius: 5px;
