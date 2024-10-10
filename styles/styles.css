@@ -2,6 +2,8 @@
 nav {
     background-color: #333;
     padding: 10px;
+    max-width: 840px;
+    text-align: center;
 }
 
 /* Nav Anchor Rule */
@@ -11,11 +13,11 @@ nav a {
     margin-right: 20px;
 }
 aside {
-    width: fit-content;
+    max-width: 840px;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
     padding: 1rem;
-    background-color: #eee;
+    background-color: #333;
     color: #333;
     text-align: center;
 }
@@ -25,11 +27,12 @@ aside img {
   }
 main{
     text-align: center;
-    width: fit-content;
+    max-width: 840px;
+    
 }
 main img {
-    text-align: center;
-    width: fit-content;
+
+    width: 150px;
     height: auto;
     
 }
