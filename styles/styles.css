@@ -1,5 +1,4 @@
 /* Nav Rule */
-title styles.css
 nav {
     background-color: #333;
     padding: 10px;
@@ -25,10 +24,12 @@ aside img {
     height: auto;
   }
 main{
-    max-width: 840px;
+    text-align: center;
+    width: fit-content;
 }
 main img {
-    width: 150px;
+    text-align: center;
+    width: fit-content;
     height: auto;
     
 }
