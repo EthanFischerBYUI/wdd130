@@ -1,19 +1,28 @@
 /* General Styles */
+:root {
+    --light-cream: #FFCDBC; /* Light Cream */
+    --muted-red: #7C3626; /* Muted Red */
+    --dark-red: #130303; /* Dark Red */
+    --deep-red: #2D080A; /* Deep Red */
+    --orange: #F5853F; /* Orange */
+}
+
 .root {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #FFCDBC; /* Light Cream */
-    color: #7C3626; /* Muted Red */
+    background-color: var(--light-cream);
+    color: var(--muted-red);
 }
 
 header {
-    background-color: #130303; /* Dark Red */
+    background-color: var(--dark-red);
     padding: 10px 0;
     text-align: center;
 }
@@ -36,28 +45,44 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #FFCDBC; /* Light Cream */
+    color: var(--light-cream);
     font-weight: bold;
 }
 
 nav ul li a:hover {
-    color: #F5853F; /* Orange */
+    color: var(--orange);
 }
+
+.hero {
+    position: relative; /* Positioning the hero section */
+    text-align: center; /* Center text within the hero */
+}
+
 .hero img {
     display: block;
     width: 100%;
     height: auto;
-  }
+}
+
+.hero h1, .hero article {
+    position: absolute; /* Positioning absolutely for hero text */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hero img {
+    float: right; /* Floating the hero image to the right */
+}
+
 /* Main Content */
 main {
-    
     padding: 20px;
     text-align: center;
 }
 
 h1, h2 {
     font-family: 'Merriweather', serif;
-    color: #2D080A; /* Deep Red */
+    color: var(--deep-red);
 }
 
 h1 {
@@ -96,8 +121,8 @@ section img {
 
 /* Footer */
 footer {
-    background-color: #130303; /* Dark Red */
-    color: #FFCDBC; /* Light Cream */
+    background-color: var(--dark-red);
+    color: var(--light-cream);
     text-align: center;
     padding: 20px 0;
 }
@@ -109,6 +134,7 @@ footer p {
 footer nav a {
     margin: 0 10px;
     display: inline-block;
+    text-decoration: none; /* Ensure no text-decoration on social media links */
 }
 
 footer nav a img {
