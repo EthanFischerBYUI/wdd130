@@ -1,75 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta name="description" content="This page is about the Company made for rafting">
-        <meta name="author" content="Ethan Fischer">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>About Us</title>
-        <link rel="stylesheet" href="styles/rafting.css">
-    </head>
+<head>
+    <meta name="description" content="This page is about the Company made for rafting">
+    <meta name="author" content="Ethan Fischer">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
 
-    <body>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-        <header>
-            <img src="images/river.gif" alt="River">
+<body>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Flexbox Container 1: Header -->
+    <header class="grid-container">
+        <div class="grid-item grid-item-1">
+            <img src="images/riverlogo.gif" alt="River">
+        </div>
+        <div class="grid-item grid-item-2">
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="trips.html">Trips</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <h1><b><u>River Gliding</u></b></h1>
-            <div>
-                <img class="hero" src="images/rafting59_600.jpg" alt="Our Team">
-                <p>
-                    Welcome to River Gliding, where adventure flows with the current!
-                    <br>Our purpose is to provide unforgettable, adrenaline-pumping experiences on the wildest rivers. 
-                    <br>Whether you're a seasoned paddler or a first-time rafter, we guide you through the heart of nature with safety, thrill, and fun in mind. 
-                    <br>Our mission? Simple—get you wet, wild, and grinning from ear to ear! We believe in teamwork, trust, and testing your limits while enjoying the ride. 
-                    <br>Our motto: "Paddle hard, laugh harder!" (Insert inspiring nonsense here) because we go beyond the rapids to create memories that last a lifetime.</p>
-            </div>
 
-            <section>
-                <h2>History</h2>
-                <p><p>
+                    <button><li><a href="index.html">Home</a></li></button>
+                    <button><li><a href="about.html">About</a></li></button>
+                    <button><li><a href="contact.html">Contact</a></li></button>
+                    <button><li><a href="trips.html">Trips</a></li></button>                
+                </ul>               
+            </nav>
+        </div>
+    </header>
+
+    <!-- Flexbox Container 2: Hero Section and Main Text -->
+    <main class="River">
+        <h1><b>River Gliding</b></h1>
+        <div class="flexbox-container-main">
+            <div class="flexbox-item-main">
+                <div class="grid-container-main">
+                    <div class="grid-item-1">
+                        <p>
+                            Welcome to River Gliding, where adventure flows with the current!
+                            <br>Our purpose is to provide unforgettable, adrenaline-pumping experiences on the wildest rivers. 
+                            <br>Whether you're a seasoned paddler or a first-time rafter, we guide you through the heart of nature with safety, thrill, and fun in mind. 
+                            <br>Our mission? Simple—get you wet, wild, and grinning from ear to ear! We believe in teamwork, trust, and testing your limits while enjoying the ride. 
+                            <br>Our motto: "Paddle hard, laugh harder!" (Insert inspiring nonsense here) because we go beyond the rapids to create memories that last a lifetime.
+                        </p>
+                    </div>
+                <div class="grid-item-2">
+                    <img class="hero" src="images/rafting-wwr.jpg" alt="Our Team" width="20px" height="30px">
+                </div>
+                </div>
+            </div>
+        </div><br><br>
+    </main>
+
+    <!-- Flexbox Container 3: History Section -->
+    <section class="History">
+        <h2>History</h2>
+        <div class="grid-container-history">
+        
+            <div class="grid-history-1">
+
+                <p>
                     River Gliding began as a wild dream in the summer of 1985, when three lifelong friends—Jack, Sam, and Lucy—found themselves 
                     stranded on the banks of the roaring Thunder River after a camping trip gone wrong. With no way to hike back, they crafted 
                     makeshift rafts from fallen trees and braved the rapids to get home. Along the way, they discovered the thrill of white water 
                     rafting and an untapped passion for adventure.
-                    <br><br>
                     What started as a daring escape turned into a vision for sharing that excitement with others. By 1986, the trio had officially 
-                    founded River Gliding, starting with a single raft and the rugged determination to conquer nature’s most challenging rivers. 
+                    founded River Gliding, starting with a single raft and the rugged determination to conquer nature’s most challenging rivers.
+                </p>
+            </div>
+            <div class="grid-history-2">
+                <img class="grid-item-img" src="images/rafting2.jpg" alt="the squad">
+            </div>
+            <div class="grid-history-3">
+                <p>     
                     Word spread quickly about their crazy but exhilarating river runs, and soon, thrill-seekers from across the country flocked 
                     to join the ride.
-                    <br><br>
                     Today, River Gliding has grown into a top-rated adventure company, with a fleet of state-of-the-art rafts and experienced guides 
                     who share Jack, Sam, and Lucy’s original spirit of daring exploration. From beginners to expert rafters, River Gliding is proud 
                     to offer wild and memorable journeys for all!
-                    </p>
-            </section>
-            <section>
-                <h2>Adventure Awaits You!</h2>
-                <img src="images/rafting64_600-min.jpg" alt="rafting">
-                <img src="images/rafting31_600-min.jpg" alt="rafting">
-                <img src="images/rafting14_600-min.jpg" alt="rafting">
-                <img src="images/rafting6_600-min.jpg" alt="rafting">
-                <img src="images/rafting4_600-min.jpg" alt="rafting">
-            </section>
-        </main>
-        <footer>
+                </p>
+            </div>
+        </div><br><br>
+    </section>
+
+    <!-- Flexbox Container 4: Adventure Section and Footer -->
+    <section class="Adventure">
+        <h2>Adventure Awaits You!</h2>
+            <div class="flexbox-container-adventure">
+                <img src="images/rafting5.jpg" alt="rafting" class="flexbox-item-adventure flexbox-item-adventure-1">
+                <img src="images/rafting3.jpg" alt="rafting" class="flexbox-item-adventure flexbox-item-adventure-2 ">
+                <img src="images/rafting1.jpg" alt="rafting" class="flexbox-item-adventure flexbox-item-adventure-3 ">
+                <img src="images/rafting6.jpg" alt="rafting" class="flexbox-item-adventure flexbox-item-adventure-4 ">                  
+                <img src="images/rafting4.jpg" alt="rafting" class="flexbox-item-adventure flexbox-item-adventure-5 ">    
+            </div>
+            <div class="flexbox-container-captions">
+                <p class="flexbox-item-caption">Lifting</p>
+                <p class="flexbox-item-caption">View</p>
+                <p class="flexbox-item-caption">Wave Battle</p>
+                <p class="flexbox-item-caption">Celebrating</p>
+                <p class="flexbox-item-caption">Rowing</p>
+            </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="flexbox-container-footer">
+        <div class="flexbox-item-footer-1">
             <p>&copy; 2023 Your Company Name. All rights reserved.</p>
-            <nav class="sociallinks">
-                <a href="https://www.facebook.com" target="_blank"><img src="images/Colored_Facebook3_svg-64.webp" alt="Facebook"></a>
-                <a href="https://www.twitter.com" target="_blank"><img src="images/X-64.webp" alt="Twitter"></a>
-                <a href="https://www.instagram.com" target="_blank"><img src="images/instagram_icon-instagram_buttoninstegram-64.webp" alt="Instagram"></a>
-            </nav>
-        </footer>
-    </body>
+        </div>
+        <nav class="flexbox-item-footer-2">
+            <a href="https://www.facebook.com" target="_blank"><img src="images/Colored_Facebook3_svg-64.webp" alt="Facebook"></a>
+            <a href="https://www.twitter.com" target="_blank"><img src="images/X-64.webp" alt="Twitter"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="images/instagram_icon-instagram_buttoninstegram-64.webp" alt="Instagram"></a>
+        </nav>
+    </footer>
+</body>
 </html>
