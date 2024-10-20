@@ -139,7 +139,7 @@ main {
 
 }
 .Adventure{
-    border: 2px var(--muted-red) sold;
+    border: solid 2px var(--muted-red);
 }
 .grid-container-history{
     display: grid;
