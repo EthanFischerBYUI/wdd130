@@ -167,10 +167,9 @@ main img {
 /* Footer Styles */
 footer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     background-color: var(--light-purple);
     padding: 20px;
-    text-align: center;
 }
 
 footer nav a {
@@ -187,14 +186,14 @@ footer nav a:hover img {
     filter: brightness(1.2);
 }
 
-.flexbox-item-footer-1{
-    display:flex;
-    width:100%
+.grid-item-footer-1{
+    display:grid;
+    justify-content: end;
+    padding-right: 70px;
 }
 
-.flexbox-item-footer-2{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    flex-direction: row;
+.grid-item-footer-2{
+    display: grid;
+    align-items: center;
+    justify-content: end;
 }
