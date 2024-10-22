@@ -17,6 +17,9 @@ header {
     background-color: var(--light-purple);
 
 }
+body{
+    background-color: aquamarine;
+}
 
 .logo {
     display: flex;
