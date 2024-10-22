@@ -120,6 +120,29 @@ a.button{
     cursor: pointer;
     background-color: var(--light-cream);
 }
+figcaption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--muted-red);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    position: relative;
+    flex-direction: row;
+}
+figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    flex-direction: column;
+}
+.Adventure{
+    display: flex;
+    flex-direction: row;
+}
 
 .flexbox-container-adventure{
     display: flex;
@@ -129,8 +152,7 @@ a.button{
 }
 .flexbox-item-adventure{
     display: flex;
-    width: 200px;
-    height: 200px;
+
     justify-content: center;
     flex-direction: row;
     padding-bottom: 8px;
