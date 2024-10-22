@@ -114,14 +114,12 @@ main {
     justify-content: space-between;
     justify-content: space-around;
     flex-direction: row;
-    align-items: bottom;
 }
 .flexbox-item-adventure{
     display: flex;
     width: 200px;
     height: 200px;
     justify-content: center;
-    align-items: bottom;
     flex-direction: row;
     padding-bottom: 8px;
     position: relative;
