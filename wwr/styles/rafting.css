@@ -152,7 +152,7 @@ figure{
 }
 .flexbox-item-adventure{
     display: flex;
-
+    flex-direction: row;
     justify-content: center;
     flex-direction: row;
     padding-bottom: 8px;
