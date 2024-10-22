@@ -8,15 +8,6 @@
 }
 
 /* General Styles */
-body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: var(--light-cream);
-    color: var(--muted-red);
-    text-align: center;
-}
-a { text-decoration: none;}
 
 /* Header Styles */
 header {
@@ -49,6 +40,7 @@ header button {
 
 
 }
+
 .grid-container-main {
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -118,29 +110,24 @@ main {
     display: flex;
     justify-content: space-between;
     justify-content: space-around;
-    align-items: center;
     flex-direction: row;
-    flex-wrap: wrap;
-
+    align-items: bottom;
 }
 .flexbox-item-adventure{
     display: flex;
     width: 200px;
     height: 200px;
     justify-content: center;
-    align-items: center;
-    align-self: auto;
+    align-items: bottom;
+    flex-direction: row;
     padding-bottom: 8px;
+    position: relative;
 }
-.flexbox-container-captions{
+.flexbox-item-caption{
     display: flex;
-    justify-content: space-around;
-    align-self: auto;
 
 }
-.Adventure{
-    border: solid 2px var(--muted-red);
-}
+
 .grid-container-history{
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
