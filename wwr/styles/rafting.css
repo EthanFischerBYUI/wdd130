@@ -131,14 +131,7 @@ figcaption{
     position: relative;
     flex-direction: row;
 }
-figure{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    position: relative;
-    flex-direction: row;
-}
+
 .Adventure{
     display: flex;
     flex-direction: row;
@@ -150,14 +143,7 @@ figure{
     justify-content: space-around;
     flex-direction: row;
 }
-.flexbox-item-adventure{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-direction: row;
-    padding-bottom: 8px;
-    position: relative;
-}
+
 .flexbox-item-caption{
     display: flex;
 
