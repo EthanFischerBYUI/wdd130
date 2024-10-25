@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="This page is for contacting support or booking for rafting">
+    <meta name="author" content="Ethan Fischer">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
+
+<body>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Flexbox Container 1: Header -->
+    <header>
+        <div class="logo">
+            <img src="images/riverlogo.gif" alt="River">
+        </div>
+        <nav>
+            <div class="nav">
+                <a href="index.html" class="button">Home</a>
+                <a href="about.html" class="button">About</a>
+                <a href="contact.html" class="button">Contact</a>
+                <a href="trips.html" class="button">Trips</a>
+            </div>               
+        </nav>
+    </header>
+
+    <!-- Flexbox Container 2: Hero Section and Main Text -->
+    <main class="River">
+        <h1><b>Reach Our Team</b></h1>
+        <div class="flexbox-container-main">
+
+                            We love Questions and Feedback - and we are always Happy to Help! <br>Here are some ways to contact us.
+                        </p>
+        </div>
+    </main>
+
+    <!-- Flexbox Container 3: History Section -->
+    <section class="History">
+        <div class="flexbox-contact">
+            <div class="flexbox-item-contact-1">
+                <h2>Talk to Sales</h2>
+                <p>Chat with our sales team to discuss when you'd like to book<br> your rafting journey</p>
+            </div>
+            <div class="flexbox-item-contact-2">
+                <h2>Contact Customer Support</h2>
+                <p>We are waiting to help you and<Br>your team, so dont hesitate to call.</p>
+                <a href="Contact Support" class="button-support">Contact Support</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Flexbox Container 4: Adventure Section and Footer -->
+    <div class="Google-maps">
+        <div class="Google-maps-1">
+            <h2>Headquarters</h2>
+            <br>
+            <h3>Calgary Alberta</h3>
+            <div class="location-container">
+                <img src="images/location.jpg" alt="Location">
+                <p>1234 Shawnessy Dr<br>T2Y 1B4</p>
+            </div>
+            <div class="phone-container">
+                <img src="images/phone.jpg" alt="Phone">
+                <p>403-555-1234</p>
+            </div>
+            <div class="email-container">
+                <img src="images/email.jpg" alt="Email">
+                <p>ethanfischer3409@gmail.com</p>
+            </div>
+        </div>
+        <div class="Google-maps-2">
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d20123.463377234904!2d-114.0942472!3d50.91570815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1729813556471!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+           </iframe>
+        </div>
+    </div>
+    <div class="message">
+        <h2>Send Us a Message</h2>
+        <br>
+        <p>Send us a message and we will respond within 24 hours.</p>
+        <form action="contact.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <div class="radio">
+                <label for="reason">Reason for Contact:</label>
+                <input type="radio" id="booking" name="reason" value="booking" required>
+                <label for="booking">Booking</label>
+                <input type="radio" id="support" name="reason" value="support" required>
+                <label for="support">Support</label>
+                <input type="radio" id="other" name="reason" value="other" required>
+                <label for="other">Other</label>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="grid-item-footer-1"><p>&copy; 2023 Your Company Name. All rights reserved.</p></div>
+        
+        <div class="grid-item-footer-2">
+            <nav>
+                <a href="https://www.facebook.com" target="_blank"><img src="images/Colored_Facebook3_svg-64.webp" alt="Facebook"></a>
+                <a href="https://www.twitter.com" target="_blank"><img src="images/X-64.webp" alt="Twitter"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="images/instagram_icon-instagram_buttoninstegram-64.webp" alt="Instagram"></a>
+            </nav>
+        </div>
+        </div>
+    </footer>
+</body>
+</html>
