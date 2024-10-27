@@ -294,6 +294,18 @@ form {
     padding: 20px;
 }
 
+.reasons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--light-cream);
+    border: 2px var(--muted-red) solid;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
 .grid-container-main {
     display: grid;
     grid-template-columns: 3fr 1fr;
